@@ -1,0 +1,45 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Tab 2
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Resultados - {{ resultado.correctas }}/{{ resultado.incorrectas + resultado.correctas }}</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Ultima actualizacion</ion-card-subtitle>
+      <ion-card-title>{{ resultado.fecha | date: 'dd/MM/yyyy H:mm' }}</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <canvas #doughnutCanvas1></canvas>
+    </ion-card-content>
+
+   </ion-card>
+
+
+
+   <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Ultimos 10</ion-card-subtitle>
+      <ion-card-title>Registro de intentos</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <ion-item *ngFor="let result of resultados">    
+        <ion-label class="ion-text-wrap" > 
+         ( {{ result.correctas }}/{{ result.correctas + result.incorrectas }} )   -   {{ result.fecha | date:'medium' }} 
+        </ion-label>
+      </ion-item>    
+    </ion-card-content>
+
+   </ion-card>
+</ion-content>

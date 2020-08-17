@@ -1,0 +1,1230 @@
+[{
+	"question": "What are some of the benefits of the consumption-based pricing model, also known as pay-as-you-go?",
+	"answers": [{
+			"texto": "No upfront costs",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "The ability to pay for additional resources only when they are needed",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "The ability to stop paying for resources that are no longer needed",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "No need to purchase and manage costly infrastructure that you may not use to its fullest",
+			"respuesta": false,
+			"checked": false
+        },
+		{
+			"texto": "All of the above",
+			"respuesta": true,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "Adding more CPUs or adding more memory are some examples of:",
+	"answers": [{
+			"texto": "Scaling up",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "Scaling out",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Elasticity",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Agility ",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "What does ‘scaling out’ mean?",
+	"answers": [{
+			"texto": "The process of adding resources to increase the power of an existing server",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "The process of automatically adding or removing resources according to the demand",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "The process of adding more servers that function together as one unit",
+			"respuesta": true,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "What is the difference between elasticity and scalability?",
+	"answers": [{
+			"texto": "They are the same",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Scalability is the ability to accommodate larger loads by adding resources either by making hardware stronger or adding additional nodes. Elasticity is the ability to fit resources needed to cope with loads dynamically usually in relation to ‘scaling out’",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "Elasticity is another name for ‘scaling out’; scalability is ‘scaling up’",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "A client’s application needs to endure different demand loads and different types of failures with the least possible downtime. What concept best applies to their needs?",
+	"answers": [{
+			"texto": "Disaster recovery",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Fault tolerance",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "High availability",
+			"respuesta": true,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "A web request is being processed by a highly available platform and one of the nodes crashes, the system is unresponsive. What concept would have been useful to avoid this situation?",
+	"answers": [{
+        "texto": "Disaster recovery",
+        "respuesta": false,
+        "checked": false
+    },
+    {
+        "texto": "Fault tolerance",
+        "respuesta": true,
+        "checked": false
+    },
+    {
+        "texto": "High availability",
+        "respuesta": false,
+        "checked": false
+    }
+]
+},
+{
+	"question": "In the healthcare industry there must be a plan for the backup of health data. This plan might come in handy just in case of an event like a water pipe bursting in the server room or a fire in the building; even an earthquake or a hurricane destroying said server room. What concept best applies to this situation?",
+	"answers": [{
+        "texto": "Disaster recovery",
+        "respuesta": true,
+        "checked": false
+    },
+    {
+        "texto": "Fault tolerance",
+        "respuesta": false,
+        "checked": false
+    },
+    {
+        "texto": "High availability",
+        "respuesta": false,
+        "checked": false
+    }
+]
+},
+{
+	"question": "What approach of investment does Azure use?",
+	"answers": [{
+			"texto": "CapEX",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "OpEx",
+			"respuesta": true,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "Your company hosts an application named App1 that is used by all the customers of the company. App1 has low usage during the first weeks of each month and very high usage during the last week of each month. Which benefit of Azure Cloud Services supports cost management for this type of usage pattern?",
+	"answers": [{
+			"texto": "High availability",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "High latency",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Elasticity",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "Load balancing",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "Which term from the list below would be viewed as benefits of using cloud services?",
+	"answers": [{
+			"texto": "Unpredictable costs",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Elasticity",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "Local reach only",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "Which of the following cloud services gives users automated and scalable environments?",
+	"answers": [{
+			"texto": "PaaS",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "IaaS",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "SaaS",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "Which of the following cloud services provides a framework for quickly developing and deploying applications?",
+	"answers": [{
+			"texto": "PaaS",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "IaaS",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "SaaS",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "Which of the following cloud services makes applications available through the Internet?",
+	"answers": [{
+			"texto": "PaaS",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "IaaS",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "SaaS",
+			"respuesta": true,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "What does Azure provide as IaaS?",
+	"answers": [{
+			"texto": "Pre-configured server images to further simplify deployment, virtualized servers that users can configure with their O.S. of their choice",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "Azure SDK, Visual Studio and Azure Emulator (Azure Cloud Services that empower developers to create applications without managing the infrastructure)",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Office 365",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "What does Azure provide as PaaS?",
+	"answers": [{
+			"texto": "Pre-configured server images to further simplify deployment, virtualized servers that users can configure with their O.S. of their choice",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Azure SDK, Visual Studio and Azure Emulator (Azure Cloud Services that empower developers to create applications without managing the infrastructure)",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "Office 365",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "What does Azure provide as SaaS?",
+	"answers": [{
+			"texto": "Pre-configured server images to further simplify deployment, virtualized servers that users can configure with their O.S. of their choice",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Azure SDK, Visual Studio and Azure Emulator (Azure Cloud Services that empower developers to create applications without managing the infrastructure)",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Office 365",
+			"respuesta": true,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "You’re developing an application and want to focus on building, testing and deploying. You don’t want to worry about managing the underlying hardware or software. Which could service type is best for you?",
+	"answers": [{
+			"texto": "IaaS",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "PaaS",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "SaaS",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "This type of cloud sometimes referred as a multi-tenant environment:",
+	"answers": [{
+			"texto": "Public",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "Private",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Hybrid",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Community ",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "What are two characteristics of the public cloud? Select two:",
+	"answers": [{
+			"texto": "Dedicated hardware",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Unsecured connections",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Limited storage",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Metered pricing",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "Self-service management",
+			"respuesta": true,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "In this type of cloud, all infrastructure is private to an individual or a company. The network is only available within the private cloud itself. It is not exposed to the Internet. In many cases, the infrastructure is owned by the company, but not always.",
+	"answers": [{
+			"texto": "Public",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Private",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "Hybrid",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Community",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "You have an on-premises network that contains 100 servers. You need to recommend a solution that provides additional resources to your users. The solution must minimize capital and operational expenditure costs. What should you include in the recommendation?",
+	"answers": [{
+			"texto": "A complete migration to the public cloud",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "An additional datacenter",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "A private cloud",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "A hybrid cloud",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "For each of the following statements, select YES if the statement is true. Otherwise, select NO:",
+	"answers": [{
+			"texto": "To achieve a hybrid cloud model, a company must always migrate from a private cloud model",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "A company can extend the capacity of its internal network by using the public cloud",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "In a public cloud model, only guest users at your company can access the resources in the cloud",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "You plan to migrate several servers from an on-premises network to Azure. You need to identify the primary benefit of using a public cloud service for the servers. What should you identify?",
+	"answers": [{
+			"texto": "The public cloud is owned by the public, NOT a private corporation",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "The public cloud is a crowd-sourcing solution that provides corporations with the ability to enhance the cloud",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "All public cloud resources can be freely accessed by every member of the public",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "The public cloud is a shared entity whereby multiple corporations each use a portion of the resources",
+			"respuesta": true,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "Suppose you have two types of applications: legacy applications that require specialized mainframe hardware and newer applications that can run on commodity hardware. Which cloud deployment model would be best for you?",
+	"answers": [{
+			"texto": "Public cloud",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Private cloud",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Hybrid cloud",
+			"respuesta": true,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "Resources are deployed into separate datacenters in a region.",
+	"answers": [{
+			"texto": "Geography",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Azure Virtual Machines",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Azure Resource Manager",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Availability zones",
+			"respuesta": true,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "Usually is a country and each geography contains at least two regions",
+	"answers": [{
+			"texto": "Geography",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "Azure Virtual Machines",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Azure Resource Manager",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Availability zones",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "What is an Azure Region?",
+	"answers": [{
+			"texto": "One or more Azure datacenters within a specific geographical location",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "A way of breaking networks into smaller networks",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Firewall rules which define the flow of traffic in and out of Azure",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "Which of the following is not a feature of a Resource Group?",
+	"answers": [{
+			"texto": "Resources can be in only one resource group",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Resources can be moved from one resource group to another",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Resource groups can be nested",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Role-based access control can be applied to the resource group",
+			"respuesta": true,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "Suppose you have an existing application running locally on your own server. You need additional capacity but prefer to move to Azure instead of buying upgraded on-premises hardware. Which compute option would likely give you the quickest route to getting your application running in Azure?",
+	"answers": [{
+			"texto": "Serverless computing",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Containers",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Virtual machines",
+			"respuesta": true,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "Imagine that you work on a photo-sharing application that runs on millions of mobile devices. Demand is unpredictable because you see a spike in usage whenever a locally or nationally significant event occurs. Which Azure compute resource is the best match for this workload?",
+	"answers": [{
+			"texto": "Serverless computing",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "Containers",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Virtual machines",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "The compute options give you different levels of control over the configuration of the environment in which your application runs. Which of the following lists the compute options in order from ‘most control’ to ‘least control’?",
+	"answers": [{
+			"texto": "Serverless computing, containers, virtual machines",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "Containers, serverless computing, virtual machines",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Virtual machines, containers, serverless computing",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "Suppose you work at a startup with limited funding. Why might you prefer Azure data storage over an on-premises solution?",
+	"answers": [{
+			"texto": "To ensure you run on a specific brand of hardware, which will let you form a marketing partnership with that hardware vendor",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "The Azure Pay-As-You-Go billing model lets you avoid buying expensive hardware",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "To get exact control over the location of your data store",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "Which of the following situations would yield the most benefits from relocating an on-premises data store to Azure?",
+	"answers": [{
+			"texto": "Unpredictable storage demand that increases and decreases multiple times throughout the year",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "Long-term, steady growth in storage demand",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Consistent, unchanging storage demand",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "A newly released mobile app using Azure data storage has been mentioned by a celebrity on social media, seeing a huge spike in user volume. To meet the unexpected new user demand, what feature of Pay-As-You-Go storage will be most beneficial?",
+	"answers": [{
+			"texto": "The ability to provision and deploy new infrastructure quickly",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "The ability to predict the service costs in advance",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "The ability to meet compliance requirement for data storage",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "Which of the following is true about virtual networks?",
+	"answers": [{
+			"texto": "You configure virtual networks through software",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "A virtual network accepts network traffic on all ports. You configure the firewall through virtual machines",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Virtual networks are always reachable from the Internet",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "Which is true about Azure Load Balancer?",
+	"answers": [{
+			"texto": "You must use Azure Load Balancer if you want to distribute traffic among your virtual machines running in Azure",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Azure Load Balancer works with internet-facing traffic only",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Azure Load Balancer distributes traffic among similar systems, making your services more highly available",
+			"respuesta": true,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "What is network latency?",
+	"answers": [{
+			"texto": "The amount of data that can fit on the connection",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "The distance data must travel to reach its destination",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "The time it takes for data to travel over the network",
+			"respuesta": true,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "How does Azure Traffic Manager reduce latency?",
+	"answers": [{
+			"texto": "It chooses only the fastest networks between endpoints",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "It chooses the endpoint that’s closest to the users DNS server",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "It caches content, similar to how content delivery networks work",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "Suppose you are about to start an IoT project where you need to gather and deploy the information of hundreds of thousands of devices. Which Azure service is the most appropriate for this type of deployment?",
+	"answers": [{
+			"texto": "Serverless computing",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "IoT Hub",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "Event Grid",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "Which service is the most appropriate for storing and querying massive amounts of STRUCTURED data with a very fast performance?",
+	"answers": [{
+			"texto": "SQL Server",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Data Lake Analytics",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "SQL Data Warehouse",
+			"respuesta": true,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "You are working on a project that requires the integration with third party services like Dropbox and Twitter. The customer’s personnel have no advanced coding skills, plus they don’t want to invest in advance and they only want to pay for what’s being used. Which is the best option?",
+	"answers": [{
+			"texto": "Azure Logic Apps",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "Azure Functions",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "IoT Central",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "Which Azure solutions allow you to analyze data and build models based on such data and can predict behaviors? Select two.",
+	"answers": [{
+			"texto": "Azure Machine Learning Studio",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "Azure Data Lake Analytics",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Azure Machine Learning Service",
+			"respuesta": true,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "An azure dashboard is stored as which type of file?",
+	"answers": [{
+			"texto": "XML",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "JSON",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "PNG",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "Azure Advisor provides advice on:",
+	"answers": [{
+			"texto": "Creating an Azure account",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Best practices and security for your services",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "Using the Azure portal effectively",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "True or false: Azure Cloud Shell is interactive, browser-accessible shell for managing Azure resources?",
+	"answers": [{
+			"texto": "True",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "False",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "There has been an attack on your public-facing website, and the application’s resources have been overwhelmed and exhausted and are now unavailable to users. What service should you use to prevent this type of attack?",
+	"answers": [{
+			"texto": "DDoS protection",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "Azure Firewall",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Network Security Group",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Application Gateway",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "Your company plans to deploy several database servers to Azure. You need to recommend an Azure solution to limit the types of connections from the webservers to the database servers. What should you include in the recommendation?",
+	"answers": [{
+			"texto": "Azure Service Bus",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Network Security Groups (NSGs)",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "A local network Gateway",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "A route filter",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "You have an Azure environment that contains 10 virtual networks and 100 virtual machines. You need to limit the amount inbound traffic to all the Azure virtual networks. What should you create?",
+	"answers": [{
+			"texto": "One Network Security Group (NSG)",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "10 virtual network Gateways",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "10 Azure ExpressRoute circuits",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "One Azure Firewall",
+			"respuesta": true,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "Cloud security is a shared responsibility between you and your cloud provider. Which category of cloud services requires the greatest security effort on your part?",
+	"answers": [{
+			"texto": "IaaS",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "PaaS",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "SaaS",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "Which of these is the strongest way to protect sensitive customer data?",
+	"answers": [{
+			"texto": "Encrypt data as it sits in your database",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Encrypt data as it travels over the network",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Encrypt data both as it sits in your database and as it travels over the network",
+			"respuesta": true,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "Which of these helps you most easily disable an account when an employee leaves your company?",
+	"answers": [{
+			"texto": "Enforce multi-factor authentication (MFA)",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Monitor sign-on attempts",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Use single sign-on (SSO)",
+			"respuesta": true,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "It is a cloud-based solution and configured to provide a similar type of protection to customers through Office 365.",
+	"answers": [{
+			"texto": "Active Directory Rights Management Services (ADRMS)",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Azure Information Protection (AIP)",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "Azure Advanced Threat Protection (ATP)",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "Unified infrastructure security management system that strengthens the security position of datacenters.",
+	"answers": [{
+			"texto": "Security Center",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "Azure AD (Active Directory)",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Azure Advanced Threat Protection (ATP)",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "You want to store certificates in Azure to centrally manage them for your services. Which Azure service should you use?",
+	"answers": [{
+			"texto": "AIP",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Azure AD",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Azure Key Vault",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "Azure ATP",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "True or false: you can download published audit reports and other compliance-related information related to Microsoft’s cloud service from the Service Trust Portal.",
+	"answers": [{
+			"texto": "True",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "False",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "Which Azure service allows you to configure fine-grained access management for Azure resources, enabling you to grant users only the rights they need to perform their jobs?",
+	"answers": [{
+			"texto": "Locks ",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Policy",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Initiatives",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Role-based Access Control",
+			"respuesta": true,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "Which Azure service allows you to create, assign and manage policies to enforce different rules and effects over your resources and stay compliant with your corporate standards and service-level-agreements (SLAs)?",
+	"answers": [{
+			"texto": "Azure Policy",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "Azure Blueprints",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Azure Security Center",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Role-based Access Control",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "Which of the following would be good to put a resource lock on?",
+	"answers": [{
+			"texto": "An ExpressRoute circuit with connectivity back to your on-premises network",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "A non-production virtual machine used to test occasional application builds",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "A storage account used to temporarily store images processed in a development environment",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "Which of the following services provides up-to date status information about the health of Azure services?",
+	"answers": [{
+			"texto": "Compliance Manager",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Azure Monitor",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Service Trust Portal",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Azure Service Health",
+			"respuesta": true,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "Where can you obtain details about the personal data Microsoft processes, how Microsoft processes it, and for what purposes?",
+	"answers": [{
+			"texto": "Microsoft Privacy Statement",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "Compliance Manager",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Azure Service Health",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Trust Center",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+}]

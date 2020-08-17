@@ -1,0 +1,47 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Certificacion
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Cuestionario</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+
+  <ion-card [class.correcto]="result == 1" [class.incorrecto]="result == 2">
+    <ion-card-header>
+      <ion-card-subtitle>Automation Anywhere</ion-card-subtitle>
+      <ion-card-title>Pregunta - #{{Counter}}</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      {{ CurrentQuestion.question }}
+    </ion-card-content>
+      <ion-list>
+       
+      <ion-item *ngFor="let answer of CurrentQuestion.answers">    
+        <ion-checkbox color="medium" [(ngModel)]="answer.checked"></ion-checkbox>
+        <ion-label 
+        class="ion-text-wrap" 
+        [ngClass]="{'respuesta-correcta': result == 1 && answer.respuesta == true, 'respuesta-incorrecta': result == 2 && answer.respuesta == true }"> 
+          {{ answer.texto }} 
+          <span *ngIf="result == 1 && answer.respuesta == true"> - Bien!</span>
+          <span *ngIf="result == 2 && answer.respuesta == true"> - Respuesta!</span>
+        </ion-label>
+      </ion-item>    
+
+    </ion-list>
+    <br>
+    <br>
+    <ion-button color="medium"  *ngIf="result == 0" expand="block" (click)="Validate()">Responder pregunta</ion-button>
+    <ion-button color="success" *ngIf="result == 1" expand="block" (click)="exitoContinuar()">Correcto! -  Siguiente</ion-button>
+    <ion-button color="danger"  *ngIf="result == 2" expand="block" (click)="errorContinuar()">Error!  -  Continuar</ion-button>
+  </ion-card>
+
+</ion-content>
