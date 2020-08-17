@@ -1227,4 +1227,208 @@
 			"checked": false
 		}
 	]
+},
+{
+	"question": "Tags can be applied to any type of resource on Azure",
+	"answers": [{
+			"texto": "True",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "False",
+			"respuesta": true,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "Tags applied at a Resource Group level are propagated to resources within the resource group",
+	"answers": [{
+			"texto": "True",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "False",
+			"respuesta": true,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "Which of the following might be a good usage of tags?",
+	"answers": [{
+			"texto": "Using tags to associate a cost center with resources for internal chargeback",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Using tags in conjunction with Azure Automation to schedule maintenance windows",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Using tags to store environment and department association",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "All of the above are good ways to use tags",
+			"respuesta": true,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "Which of the following would be the most efficient way to ensure a naming convention was followed across your subscription?",
+	"answers": [{
+			"texto": "Send out an email with the details of your naming conventions and hope it is followed",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Create a policy with your naming requirements and assign it to the scope of your subscription",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "Give all other users except for yourself read-only access to the subscription. Have all requests to create resources sent to you so you can review the names being assigned to resources, and then create them",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "Which one of these is not a cost-saving solution?",
+	"answers": [{
+			"texto": "Deallocate virtual machines during off hours",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Use Azure Reserved Virtual Machines Instances",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Load balance your virtual machines for incoming messages",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "Right-size underutilized virtual machines",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "True or false: PaaS is generally less expensive than IaaS",
+	"answers": [{
+			"texto": "True",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "False",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "True or false: If you already have Windows Server licenses, you must pay for them again on Azure",
+	"answers": [{
+			"texto": "True",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "False",
+			"respuesta": true,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "True or false: Azure has money-saving options for test and development servers",
+	"answers": [{
+			"texto": "True",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "False",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "Which of the following are used to determine Azure costs for each billing period?",
+	"answers": [{
+			"texto": "The Azure website",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Number of created virtual machines",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "The Azure pricing calculator",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Usage meters",
+			"respuesta": true,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "Which of the following is a factor affecting costs?",
+	"answers": [{
+			"texto": "Global infrastructure",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Location",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "Availability zone",
+			"respuesta": false,
+			"checked": false
+		}
+	]
+},
+{
+	"question": "Complete the following sentence. As an Azure customer, Azure Reservations offer discounted prices if you_____",
+	"answers": [{
+			"texto": "Pay in advance",
+			"respuesta": true,
+			"checked": false
+		},
+		{
+			"texto": "Provision many resources",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Have a free account",
+			"respuesta": false,
+			"checked": false
+		},
+		{
+			"texto": "Set Spending limits",
+			"respuesta": false,
+			"checked": false
+		}
+	]
 }]
